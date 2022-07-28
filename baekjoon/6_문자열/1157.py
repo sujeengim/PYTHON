@@ -1,4 +1,3 @@
-#이거 왜 틀린거지?
 s = input().lower()
 s2 = list(set(s)) #중복제거
 c = 0
