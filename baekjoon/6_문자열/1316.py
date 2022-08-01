@@ -17,3 +17,9 @@ for i in range(n):
         elif w[i] not in lst:
             lst.append(w[i])
 print(n-count)
+
+# 다른방법
+'''
+문자열 반복하면서 현재문자와 뒷문자가 같지 않은 경우만 검사를 한다
+만약 현재문자가 뒷문자~마지막문자(슬라이싱 사용) 안에 존재하면 카운트
+'''
