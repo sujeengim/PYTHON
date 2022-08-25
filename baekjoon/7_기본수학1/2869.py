@@ -14,3 +14,8 @@ while go<V:
 
 print(cnt)
 
+'''맞은 풀이'''
+import math,sys
+A, B, V = map(int, sys.stdin.readline().split())
+print(math.ceil((V-A)/(A-B))+1)
+#왜 (V-A)%(A-B)==0 일때도 +1을 해줘야 하는지 모르겠음
