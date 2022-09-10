@@ -1,3 +1,12 @@
+# 재귀로 해보기/
+
+
+def fac(n_test):
+    if n_test==0:
+        return n_test
+    else:
+        return fac(n_test)
+
 for _ in range(int(input())):
     k = int(input()) # 층
     n = int(input()) # 호
