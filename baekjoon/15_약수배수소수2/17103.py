@@ -16,3 +16,29 @@ def primeNumber(n):
             
     return primeList
 
+
+def partition(n:int):
+  '''골드바흐 파티션 개수 구하기'''
+    cnt = 0
+
+    primeList = primeNumber(n)
+
+    return cnt
+
+
+def main():
+    n = int(input())
+    numList = [0]*n
+    cntList = [0]*n
+
+    for i in range(n):
+        numList[i] = int(input())
+
+    for i in numList:
+        cntList[i] = partition(n)
+
+    for cnt in cntList:
+        print(cnt)
+
+if __name__ == "__main__":
+    main()
