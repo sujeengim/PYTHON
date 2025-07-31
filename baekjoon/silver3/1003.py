@@ -1,11 +1,11 @@
-# int fibonacci(int n) {
-#     if (n == 0) {
-#         printf("0");
-#         return 0;
-#     } else if (n == 1) {
-#         printf("1");
-#         return 1;
-#     } else {
-#         return fibonacci(n‐1) + fibonacci(n‐2);
-#     }
-# }
+import sys
+
+n = int(input())
+cnt0 =0
+cnt1 =0
+for i in range(n):
+    f = int(sys.stdin.readline().strip())
+    if f == 0:
+        cnt0 += 1
+    elif f == 1:
+        cnt1 += 1
